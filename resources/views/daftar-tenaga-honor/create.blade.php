@@ -47,24 +47,24 @@
                     </select>
                 </div>
             </div>
-            {{-- <div class="col-md-6">
+            <div class="col-md-6">
                 <div class="form-group">
                     <label for="" class="control-label">Jenis Kelamin</label>
                     <select class="form-control" aria-label="Default select example" name="jenis_kelamin">
                         <option selected>Open this select menu</option>
-                            <option value="Islam">Laki-laki</option>
-                            <option value="Protestan">Perempuan</option>
+                            <option value="Laki-laki">Laki-laki</option>
+                            <option value="Perempuan">Perempuan</option>
                     </select>
                 </div>
-            </div> --}}
-            <div class="col-md-6">
+            </div>
+            {{-- <div class="col-md-6">
                 <div class="form-group">
                     <label for="" class="control-label">Jenis Kelamin</label>
                     <input type="enum" name="jenis_kelamin" class="form-control @error('jenis_kelamin')
                     is-invalid
                 @enderror">
                 </div>
-            </div>
+            </div> --}}
             <div class="col-md-6">
                 <div class="form-group">
                     <label for="" class="control-label">Tempat Lahir</label>
